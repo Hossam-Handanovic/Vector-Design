@@ -1,0 +1,319 @@
+         @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+         * {
+             font-family: 'Open Sans', sans-serif;
+             ;
+         }
+         
+         .div1 {
+             position: fixed;
+             border: 6px solid #045887;
+             background-color: #00adef;
+             width: 600px;
+             height: 600px;
+             border-radius: 500px;
+             margin-left: 355px;
+             margin-top: 25px;
+         }
+         
+         .div2 {
+             position: fixed;
+             border: 6px solid #045887;
+             background-color: #F4989D;
+             width: 390px;
+             height: 450px;
+             border-radius: 0px;
+             margin-left: 460px;
+             margin-top: 100px;
+         }
+         
+         .div3 {
+             position: fixed;
+             border: 6px solid #045887;
+             background-color: #F4989D;
+             width: 390px;
+             height: 450px;
+             border-radius: 0px;
+             margin-left: 460px;
+             margin-top: 100px;
+             transform: rotate(42deg);
+         }
+         
+         .div4 {
+             position: fixed;
+             border: 6px solid #045887;
+             background-color: none;
+             width: 390px;
+             height: 450px;
+             border-radius: 0px;
+             margin-left: 460px;
+             margin-top: 100px;
+         }
+         
+         .octagonWrap {
+             width: 350px;
+             height: 350px;
+             margin-left: 490px;
+             margin-top: 150px;
+             float: left;
+             position: relative;
+             overflow: hidden;
+             transform: rotate(70deg) !important;
+         }
+         
+         .octagon {
+             position: absolute;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             left: 0;
+             overflow: hidden;
+             transform: rotate(45deg);
+             background: #fef568;
+             border: 3.2px solid #045887;
+         }
+         
+         .octagon:before {
+             position: absolute;
+             top: -3px;
+             right: -3px;
+             bottom: -3px;
+             left: -3px;
+             transform: rotate(45deg);
+             content: '';
+             border: inherit;
+         }
+         /* =================================================================== (1) ====================================================== */
+         
+         .div6 {
+             position: fixed;
+             width: 400px !important;
+             height: 400px !important;
+             left: 470px;
+             bottom: 133px;
+             transform: rotate(48deg);
+         }
+         
+         .div7 {
+             position: fixed;
+             width: 230px;
+             height: 230px;
+             border: 6px solid #045887;
+             background-color: #00b1ef;
+             border-radius: 300px;
+             left: 545px;
+             bottom: 212px;
+         }
+         
+         .div8 {
+             position: fixed;
+             width: 200px;
+             height: 200px;
+             border: 6px solid #045887;
+             background-color: #5DD0FC;
+             border-radius: 300px;
+             left: 559px;
+             bottom: 227px;
+         }
+         
+         .div9 {
+             width: 205px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(90deg);
+             left: 585px;
+             bottom: 311px;
+         }
+         
+         .div10 {
+             width: 205px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(180deg);
+             left: 565px;
+             bottom: 300px;
+         }
+         
+         .div11 {
+             width: 205.5px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(45deg);
+             left: 577px;
+             bottom: 332px;
+         }
+         
+         .div12 {
+             width: 205.5px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(130deg);
+             left: 577px;
+             bottom: 302px;
+         }
+         
+         .div13 {
+             width: 205.5px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(155deg);
+             left: 572px;
+             bottom: 300px;
+         }
+         
+         .div14 {
+             width: 205.5px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(203deg);
+             left: 560px;
+             bottom: 300px;
+         }
+         
+         .div15 {
+             width: 205.5px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(428deg);
+             left: 584px;
+             bottom: 325px;
+         }
+         
+         .div16 {
+             width: 205.5px;
+             height: 35px;
+             border-bottom: 4px solid #045887;
+             position: absolute;
+             transform: rotate(470deg);
+             left: 582px;
+             bottom: 310px;
+         }
+         /* ===================== Circle ======================== */
+         
+         .div17 {
+             position: absolute;
+             width: 150px;
+             height: 150px;
+             border: 6px solid #045887;
+             background-color: #00b1ef;
+             border-radius: 300px;
+             left: 585px;
+             bottom: 252px;
+         }
+         /* =================================================================== (2) ====================================================== */
+         
+         .div18 {
+             position: fixed;
+             width: 400px;
+             height: 400px;
+             left: 467px;
+             bottom: 130px;
+             cursor: pointer;
+         }
+         /* =================================================================== (3) ====================================================== */
+         
+         .div19 {
+             position: fixed;
+             width: 300px;
+             height: 300px;
+             left: 617px;
+             bottom: 435px;
+         }
+         
+         .div20 {
+             position: fixed;
+             width: 330px;
+             height: 330px;
+             left: 420px;
+             bottom: 420px;
+             transform: rotate(-45deg);
+         }
+         
+         .div21 {
+             position: fixed;
+             width: 380px;
+             height: 380px;
+             left: 240px;
+             bottom: 230px;
+             transform: rotate(-80deg);
+         }
+         
+         .div22 {
+             position: fixed;
+             width: 320px;
+             height: 320px;
+             left: 740px;
+             bottom: 310px;
+             transform: rotate(35deg);
+         }
+         
+         .div23 {
+             position: fixed;
+             width: 400px;
+             height: 400px;
+             left: 710px;
+             bottom: 40px;
+             transform: rotate(90deg);
+         }
+         
+         .div24 {
+             position: fixed;
+             width: 320px;
+             height: 320px;
+             left: 275px;
+             bottom: 30px;
+             transform: rotate(-140deg);
+         }
+         
+         .div25 {
+             position: fixed;
+             width: 320px;
+             height: 320px;
+             left: 410px;
+             bottom: -88px;
+             transform: rotate(-180deg);
+         }
+         
+         .div26 {
+             position: fixed;
+             width: 320px;
+             height: 320px;
+             left: 275px;
+             bottom: 30px;
+             transform: rotate(-140deg);
+         }
+         
+         .div27 {
+             position: fixed;
+             width: 320px;
+             height: 320px;
+             left: 590px;
+             bottom: -90px;
+             transform: rotate(-220deg);
+         }
+         /* =================================================================== (The END) ====================================================== */
+         /* ================================== MEDIA QUERY FOR MOBILE PHONES RESPONSIVE SIZES =========================================*/
+         
+         @media only screen and (max-width: 768px) {
+             /* You can Edit the responsing option at any time.*/
+         }
+         /* ================================================= ABOUT ME ========================================================= */
+         /*
+    Hi.....
+
+    1- My name is Hossam EL Hendawi and I’m Web developer.
+    2- You can access to my account in Github and Stack over flow and also codepen.
+    3- My account in Github: https://github.com/Hossam-Handanovic
+    4- My account in Stack over flow: https://stackoverflow.com/users/14985916/handanovic?tab=profile
+    5- My account in codepen: https://codepen.io/handanovic22
+    6- You will find an image i created by photoshop and is considering as challenge for me to be designed by using html & css.
+    7- why I use some of images not depending on 100% of coding? because i wanna to adjust the properties of css for all types of elements in html like div and img.
+    8- You can use a google inspecting option to get more specific about each layer in the page through ( rightclick + inspect ) 
+    Bye.....
+*/
